@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercico 2</title>
+</head>
+<body>
+<h2>Desarrollar lo siguiente: </h2>
+
+<p>
+	Desarollar un algoritmo, que dado el nombre de una persona,
+	su peso y altura, expresados estos dos ultimos en libras y pies,
+	respectivamente; escriba el nombre de la persona, su peso 
+	expreado en KGs y su altura en Metros.
+</p>
+
+<?php
+$nombre="Mario";
+$peso=140;
+$altura=5;
+
+$pesoKgs=$peso*0.45;
+$alturaMts=$altura*0.3048;
+
+echo "Nombre: $nombre <br>";
+echo "Pesa en Libras:  $peso <br>";
+echo "Altura en pies: $altura <br>"; 
+echo "<br><br>";
+echo "Peso en Kgs $pesoKgs <br>";
+echo "Altura en metros $alturaMts<br>";
+
+
+?>
+
+</body>
+</html>
