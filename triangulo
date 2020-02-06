@@ -1,0 +1,33 @@
+
+<html>
+<head>
+<title>Base de un triangulo</title>
+</head>
+<body>
+	<br></br>
+<h1>Ejemplo de calculo de triangulo</h1>
+
+
+<?php 
+
+echo "Mensaje con echo <br><br>";
+$base=6;
+$altura=20;
+
+
+//calcular area del triangulo
+echo "Area del triangulo";
+echo "Base =  $base<br>";
+echo "Altura =  $altura<br>";
+
+$area=($base*$altura)/2;
+
+echo "El area del triangulo es: ";
+echo $area;
+
+ ?>
+
+</body>
+</html>
+
+
