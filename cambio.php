@@ -13,15 +13,17 @@ realize el tipo de cambio a pesos
 </p>
 
 <?php
-
+/*Declar valores*/
 $peso=1;
 $dolar=18.67;
-
+/*Desarollar formula */
 $total=$peso/$dolar;
 
+/*Condicionar */
 if ($peso>=100) {
     echo "TE EXCEDISTE DEL LIMITE";
 } else {
+/*Imprimir datos */	
 echo "Cantidad de pesos: $peso";
 echo "<br>";
 echo "Precio del dolar : $dolar";
