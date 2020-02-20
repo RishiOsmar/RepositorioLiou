@@ -46,7 +46,7 @@ $(document).ready(function() {
 <div class="container">
 <?php 
 if (isset($_post['insertar'])) {
-  ///informacion enviada por el fromulario///
+  ///informacion enviada por el formulario///
   $nombres=$_post['nombres'];
   $apellidos=$_post['apellidos'];
   $profesion=$_post['profesion'];
